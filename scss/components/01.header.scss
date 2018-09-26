@@ -1,0 +1,99 @@
+.header {
+  background: url("../../img/main image.png") center/cover no-repeat;
+  height: 100vh;
+
+  &__navbar {
+    height: 57px;
+    padding-top: 21px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-around;
+  }
+
+  &__logo {
+    margin-right: auto;
+  }
+
+  &__navbar-item {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  &__navbar-item {
+    text-decoration: none;
+    text-shadow: -1px 1px 40px rgba(1, 1, 1, 0.55);
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+  }
+
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 274px;
+  }
+
+  &__slogan {
+    opacity: 0.7;
+    text-shadow: -1px 1px 40px rgba(1, 1, 1, 0.55);
+    color: #ffffff;
+    font-family: "Times New Roman";
+    font-size: 3.6rem;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 3rem;
+    text-align: center;
+    letter-spacing: 0.18rem;
+  }
+
+  &__heading {
+    text-shadow: -1px 1px 40px rgba(1, 1, 1, 0.55);
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 10rem;
+    font-weight: 400;
+    line-height: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  &__button {
+    width: 280px;
+    height: 68px;
+    background-color: transparent;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 21.18px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    margin-top: 20px;
+  }
+
+  &__own-recipes, &__get-rewarded {
+    text-shadow: -1px 1px 40px rgba(1, 1, 1, 0.55);
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-top: 50px;
+  }
+
+  &__get-rewarded:hover {
+    opacity: 0.7;
+  }
+}
